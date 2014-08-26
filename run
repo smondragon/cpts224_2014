@@ -1,4 +1,5 @@
 #!/bin/bash -e
 
 echo A Test
+echo i wrote the best test
 echo Tests complete
