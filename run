@@ -1,6 +1,7 @@
 #!/bin/bash -e
 
-echo A Test
-echo i wrote the best test
-echo This Test is better
+
+echo My Name is Evan Felix, I am the instructor for the class and Graduated from Utah State University.
+echo
 echo Tests complete
+
