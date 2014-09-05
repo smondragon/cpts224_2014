@@ -1,4 +1,5 @@
 #!/bin/bash
 
 cat zoo/evan
-cat zoo/daniel.hanlen
+cat zoo/daniel.hanle
+cat zoo/michael
