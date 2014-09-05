@@ -1,5 +1,5 @@
 #!/bin/bash
-
+cat zoo/Eric
 cat zoo/evan
 cat zoo/daniel.hanlen
 cat zoo/jacqueline.wilkes
