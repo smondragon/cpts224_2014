@@ -1,0 +1,22 @@
+#!/bin/bash
+eval `resize`
+
+n=Evan
+for (( i=0 ; i<$COLUMNS-${#n} ; i++ ))
+do
+	for j in `seq 1 $i`
+	do
+		echo -n ' '
+	done
+	echo -e -n "$n\r"
+	sleep 0.05
+done
+for (( i=$COLUMNS-${#n}-1 ; i>0 ;  i-- ))
+do
+	for j in `seq 1 $i`
+	do
+		echo -n ' '
+	done
+	echo -e -n "$n \r"
+	sleep 0.05
+done
