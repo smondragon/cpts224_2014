@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+count=0
+while [ "$count" -lt 40 ]
+do
+	for ((i=0;i<count;i++))
+	do
+		echo -n " "
+	done
+	echo "Steven Ahl"
+	count=$((count+1))
+done
