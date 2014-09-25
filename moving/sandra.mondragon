@@ -1,0 +1,14 @@
+#!/bin/bash
+
+name=Sandra
+print=40
+
+for (( i=0; i<$print; i++ ))
+do
+    for j in `seq 1 $i`
+      do
+        echo -n ' '
+        done
+    
+echo $name
+done
