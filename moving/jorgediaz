@@ -1,0 +1,12 @@
+for count in $(seq 0 1 39)	#Print out 40 times
+do
+	# print out the spacing
+	for i in $(seq 0 1 $count)
+	do
+		printf " "
+	done
+
+	# print out my name
+	echo "Jorge!"
+done
+echo "...was here."
