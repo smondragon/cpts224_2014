@@ -1,0 +1,9 @@
+#!/bin/bash
+
+space=""
+counter=0
+while [[ counter -lt 40 ]]; do
+  echo "${space}Nathan Masters"
+  space="$space "
+  counter=$((counter + 1))
+done

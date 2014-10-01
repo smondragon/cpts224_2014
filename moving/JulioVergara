@@ -1,0 +1,48 @@
+st login: Tue Sep 30 19:16:44 on ttys001
+$ cd cpts224
+$ cd homework/homework2
+$ ls
+2		3		file		name		readme.txt
+$ vi name
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#!/bin/bash
+
+count=0
+while [[ count -lt 40 ]]; do
+        echo " Julio Vergara "
+        count=$count+1
+done
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+
