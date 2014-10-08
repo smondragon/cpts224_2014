@@ -1,17 +1,13 @@
 #!/bin/bash -e
 
 
-echo My Name is Sandra Mondragon,I am a transfer student from Columbia Basin
-echo College,
-echo 
-echo I plan to graduate next year with a BS in Computer Science
-echo I am a first generation college student in my family
+echo My Name is Evan Felix, I am the instructor for the class and Graduated from Utah State University.
 echo
 echo my name is Julio Vergara, going for computer science 
 echo
 echo My name is Daniel Hanlen, I work making medical software, and graduate soon with a BS in Computer Science.
 echo
-echo My name is Steven Ahl.  I am a trophy husband and working on my BA in Comp Sci
+./StevenAhl
 echo
 echo My name is Rebecca Hoerner. Im working towards a BA in Computer Science.
 echo
