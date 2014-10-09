@@ -1,0 +1,12 @@
+#!/bin/bash 
+ 
+printTimes=40 
+
+for (( it=0 ; it<$printTimes ; it++ )) 
+do 
+   echo "Rebecca"
+   for (( space=0; space<=it ; space++))  
+    do 
+       echo -n " " 
+    done  
+done 
