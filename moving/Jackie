@@ -1,0 +1,9 @@
+#!/bin/bash
+for COUNTER in `seq 1 40`
+do
+	for SPACE in `seq 1 $COUNTER`
+	do
+		echo -n ' '
+	done
+	echo "Jackie"
+done
