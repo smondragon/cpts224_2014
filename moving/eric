@@ -1,0 +1,13 @@
+#!/bin/bash
+
+limit=40
+for ((x=1; x<=limit ; x++))
+do
+	for ((i=1; i<=x; i++))
+	do 
+	printf " "
+	
+	done
+echo Eric
+
+done 
