@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 limit=40
 for ((x=1; x<=limit ; x++))
@@ -9,5 +9,5 @@ do
 	
 	done
 echo Eric
-sleep 1
+
 done 

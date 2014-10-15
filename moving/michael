@@ -1,0 +1,9 @@
+#!/bin/bash
+IFS='&'
+name=Michael
+space=" "
+for ((i=0; i <= 40; i++))
+do
+	echo $name
+        name="$space$name"
+done
