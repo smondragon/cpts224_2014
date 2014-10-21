@@ -13,7 +13,7 @@
 
 
 int main(int argc, char *argv[], char *envp[]) {
-	unsigned long i;
+	unsigned long i,j;
 	unsigned long multiplier=1000000;
 	double d=0.0;
 
@@ -27,4 +27,9 @@ int main(int argc, char *argv[], char *envp[]) {
 
 	printf("Done with Step 1\n");
 
+	//Daniel Hanlen
+	for(i=0;i<multiplier;i++)
+		for(j=0;j<i;j++)
+			d=(double)(i-j)/(double)(i+j);
+	printf("Done with Step Dan.\n");
 }
