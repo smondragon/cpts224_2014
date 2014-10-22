@@ -73,5 +73,8 @@ int main(int argc, char *argv[], char *envp[])
                 d = (multiplier-i)/(multiplier+i);
 
         printf("Completed Step 5\n");
+	// Sandra M
+	for(s=0;s<multiplier;i++)
+		d = sin(d+(double)(i*0.05)/multiplier);
+	printf("Done with step 5!!\n");
 }
-
