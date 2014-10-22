@@ -1,9 +1,17 @@
 #!/bin/bash
 #run subscripts here:
+
+./nickbunn
+
 ./michael
 
 ./eric
 
 ./Jackie
 ./DanielHanlen
+
+
+./jorgediaz
+
+
 
