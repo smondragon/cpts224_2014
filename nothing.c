@@ -37,7 +37,7 @@ int main(int argc, char *argv[], char *envp[])
 
 	//Daniel Hanlen
 	for(i=0;i<multiplier;i++)
-		for(j=0;j<i;j++)
+		for(j=0;j<i;j=j+(multiplier/1000))
 			d=(double)(i-j)/(double)(i+j);
 	printf("Done with Step Dan.\n");
 
