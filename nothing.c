@@ -28,12 +28,6 @@ int main(int argc, char *argv[], char *envp[])
 	for (i=0;i<multiplier;i++)
 		d = sin(d+(double)i/multiplier);
 
-	for (i=0; i<multiplier; i++)
-		{
-			d = multiplier * multiplier;
-			d = d - multiplier;
-		}
-//Eric Thomas ^^^^^^
 	printf("Done with Step 1\n");
 
 	for (i=0; i<multiplier; i++)
@@ -47,6 +41,7 @@ int main(int argc, char *argv[], char *envp[])
 			d=(double)(i-j)/(double)(i+j);
 	printf("Done with Step Dan.\n");
 
+//Eric Thomas
 	for (i=0; i<multiplier; i++)
 	{
 		d = multiplier * multiplier;
