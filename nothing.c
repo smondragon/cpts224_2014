@@ -16,8 +16,12 @@ int main(int argc, char *argv[], char *envp[])
 {
 	unsigned long i,j;
 
+int main(int argc, char *argv[], char *envp[]) {
+	unsigned long i;
+	unsigned long count;
 	unsigned long multiplier=1000000;
 	double d=0.0;
+	double d2=0.0;
 
 	if (argc > 1)
 		multiplier *= strtoul(argv[1],NULL,10);
@@ -54,4 +58,10 @@ int main(int argc, char *argv[], char *envp[])
 
 	}
 	printf("Done with step 3");
+	
+	// Jorge Diaz
+	for (count=0; count < multiplier; count++)
+		d2 = sin(d2+(double)count/multiplier);
+	printf("Done with Step 2\n");
+	
 }
