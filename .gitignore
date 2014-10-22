@@ -23,3 +23,6 @@
 *.hex
 *~
 
+nothing
+Makefile
+makefile
