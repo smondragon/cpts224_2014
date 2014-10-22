@@ -1,0 +1,10 @@
+#!/bin/bash
+
+for i in {0..39};do
+count=0
+	while ((i > count));do
+		echo -n " "
+		((count++))
+	done
+echo "Nick"
+done
