@@ -14,7 +14,8 @@
 
 int main(int argc, char *argv[], char *envp[])
 {
-	unsigned long i;
+	unsigned long i,j;
+
 	unsigned long multiplier=1000000;
 	double d=0.0;
 
@@ -27,11 +28,30 @@ int main(int argc, char *argv[], char *envp[])
 	for (i=0;i<multiplier;i++)
 		d = sin(d+(double)i/multiplier);
 
+	for (i=0; i<multiplier; i++)
+		{
+			d = multiplier * multiplier;
+			d = d - multiplier;
+		}
+//Eric Thomas ^^^^^^
 	printf("Done with Step 1\n");
 
 	for (i=0; i<multiplier; i++)
 		d = (i%3 == 0 ? multiplier++ : multiplier);
 
-	printf("Done with Step 2\n");
+	printf("Done with Step 2\n");  // Steven ahl
 
+	//Daniel Hanlen
+	for(i=0;i<multiplier;i++)
+		for(j=0;j<i;j++)
+			d=(double)(i-j)/(double)(i+j);
+	printf("Done with Step Dan.\n");
+
+	for (i=0; i<multiplier; i++)
+	{
+		d = multiplier * multiplier;
+		d = d - multiplier;
+
+		printf("Done with step 3");
+	}
 }
