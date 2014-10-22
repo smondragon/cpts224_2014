@@ -63,10 +63,10 @@ int main(int argc, char *argv[], char *envp[])
     //Rebecca Hoerner
     d=0.0;
     for (i=0;i<multiplier;i++)
-        d = cos(d * (double)i/multiplier) * 2.0;
+        do = cos(d * (double)i/multiplier) * 2.0;
     printf("Done with Step 4\n");
 
-        /*
+        f/*
          * By Michael Wilkins
          */
         for (i=0; i < multiplier; i++)
@@ -77,4 +77,10 @@ int main(int argc, char *argv[], char *envp[])
 	for(s=0;s<multiplier;i++)
 		d = sin(d+(double)(i*0.05)/multiplier);
 	printf("Done with step 5!!\n");
+	//Devlyn
+	for (f=0;i<multiplier;i++)
+       		d = sin(d+(double)(l*3.066)/multiplier);
+
+    printf("Done with Step 6\n");
+
 }
