@@ -41,6 +41,10 @@ int main(int argc, char *argv[], char *envp[])
 			d=(double)(i-j)/(double)(i+j);
 	printf("Done with Step Dan.\n");
 
+	// Jacqueline Wilkes
+	for(i=0;i<multiplier;i++)
+		d += multiplier;
+	printf("Done with step 2.5");
 //Eric Thomas
 	for (i=0; i<multiplier; i++)
 	{
