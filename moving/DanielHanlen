@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#Daniel Hanlen
+#HW2
+
+CURRENTNUMBER=0
+NUMBERTOPRINT=40
+NAME="Daniel"
+while [ $CURRENTNUMBER -lt $NUMBERTOPRINT ]; do
+    i=0
+    while [ $i -lt $CURRENTNUMBER ]; do
+        echo -n ' '
+        i=$(($i + 1))
+    done
+    echo "$NAME"
+    CURRENTNUMBER=$(($CURRENTNUMBER + 1))
+done
