@@ -27,4 +27,16 @@ int main(int argc, char *argv[], char *envp[]) {
 
 	printf("Done with Step 1\n");
 
+	/*
+	 *Step 2:
+	 * multiplier is 10 times bigger, and the program does 10 times more stuff!! 
+	 * (10 times nothing is still nothing)
+	 * By Michael Wilkins
+	 */
+	multiplier = multiplier * 10;
+	for (i=0; i < multiplier; i++)
+		d = multiplier-i;
+
+	printf("Completed Step 2\n");
+
 }
