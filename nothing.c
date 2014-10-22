@@ -51,6 +51,7 @@ int main(int argc, char *argv[], char *envp[])
 		d = multiplier * multiplier;
 		d = d - multiplier;
 
-		printf("Done with step 3");
+
 	}
+	printf("Done with step 3");
 }
