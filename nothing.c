@@ -12,13 +12,15 @@
 #include <math.h>
 
 
-int main(int argc, char *argv[], char *envp[]) {
+int main(int argc, char *argv[], char *envp[])
+{
 	unsigned long i;
 	unsigned long multiplier=1000000;
 	double d=0.0;
 
 	if (argc > 1)
 		multiplier *= strtoul(argv[1],NULL,10);
+
 	printf("Begin Code\n");
 
 
@@ -26,5 +28,10 @@ int main(int argc, char *argv[], char *envp[]) {
 		d = sin(d+(double)i/multiplier);
 
 	printf("Done with Step 1\n");
+
+	for (i=0; i<multiplier; i++)
+		d = (i%3 == 0 ? multiplier++ : multiplier);
+
+	printf("Done with Step 2\n");
 
 }
