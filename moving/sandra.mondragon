@@ -1,6 +1,6 @@
 #!/bin/bash
 
-name=Sandra
+name=Sandra Mondragon
 print=40
 
 for (( i=0; i<$print; i++ ))
