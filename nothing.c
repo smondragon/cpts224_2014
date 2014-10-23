@@ -41,7 +41,9 @@ int main(int argc, char *argv[], char *envp[])
     printf("Done with Step Dan.\n");
 
 
-    // Jacqueline Wilkes
+   //r Jacqueline Wilkes
+
+
     for(i=0;i<multiplier;i++)
         d += multiplier;
     printf("Done with step 2.5");
@@ -74,8 +76,16 @@ int main(int argc, char *argv[], char *envp[])
 
         printf("Completed Step 5\n");
 	// Sandra M
-	for(s=0;s<multiplier;s++)
-		d = sin(d+(double)(s*0.05)/multiplier);
+	for(s=0;s<multiplier;i++)
+		d = sin(d+(double)(i*0.05)/multiplier);
+	printf("Done with step 5!!\n");
+
+	//Devlyn
+	int f;
+	for (f=0;i<multiplier;i++)
+       		d = sin(d+(double)(i*3.066)/multiplier);
+
+    printf("Done with Step 6\n");
 
 	printf("Done with step 5!!\n");
 	
