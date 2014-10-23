@@ -77,4 +77,8 @@ int main(int argc, char *argv[], char *envp[])
 	for(s=0;s<multiplier;s++)
 		d = sin(d+(double)(s*0.05)/multiplier);
 	printf("Done with step 6!!\n");
+	// By Nick Bunn
+	for (i=0;i<multiplier; i++)
+		d = (multiplier * 2) / (multiplier - 2);
+	printf("Done with step 7.\n");
 }
