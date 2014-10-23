@@ -76,10 +76,14 @@ int main(int argc, char *argv[], char *envp[])
 	// Sandra M
 	for(s=0;s<multiplier;s++)
 		d = sin(d+(double)(s*0.05)/multiplier);
+
 	printf("Done with step 5!!\n");
 	
 	// Emilio Orozco
 	for(i=0,i<multiplier;i++;)
 		d=cos(d+(double)(i*2)/multiplier);
 	printf("Done with step 6\n");
+
+	printf("Done with step 6!!\n");
+
 }
