@@ -13,7 +13,7 @@
 int main(int argc, char *argv[], char *envp[])
 {
 
-    unsigned long i,j;
+    unsigned long i,j,s;
     unsigned long count;
     unsigned long multiplier=1000000;
     double d=0.0;
@@ -74,7 +74,7 @@ int main(int argc, char *argv[], char *envp[])
 
         printf("Completed Step 5\n");
 	// Sandra M
-	for(s=0;s<multiplier;i++)
-		d = sin(d+(double)(i*0.05)/multiplier);
+	for(s=0;s<multiplier;s++)
+		d = sin(d+(double)(s*0.05)/multiplier);
 	printf("Done with step 5!!\n");
 }
