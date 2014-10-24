@@ -9,6 +9,7 @@
 #include <stdlib.h>
 #include <math.h>
 
+#define STEP printf("Done with step %d\n",__COUNTER__);
 
 int main(int argc, char *argv[], char *envp[])
 {
@@ -27,46 +28,44 @@ int main(int argc, char *argv[], char *envp[])
     for (i=0;i<multiplier;i++)
         d = sin(d+(double)i/multiplier);
 
-    printf("Done with Step 1\n");
+	STEP;
 
     for (i=0; i<multiplier; i++)
         d = (i%3 == 0 ? multiplier++ : multiplier);
 
-    printf("Done with Step 2\n"); // Steven ahl
+	STEP;
 
     //Daniel Hanlen
     for(i=0;i<multiplier;i++)
         for(j=0;j<i;j=j+(multiplier/1000))
             d=(double)(i-j)/(double)(i+j);
-    printf("Done with Step Dan.\n");
 
+	STEP;
 
    //r Jacqueline Wilkes
 
 
     for(i=0;i<multiplier;i++)
         d += multiplier;
-    printf("Done with step 2.5");
+    STEP;
 //Eric Thomas
     for (i=0; i<multiplier; i++)
     {
         d = multiplier * multiplier;
         d = d - multiplier;
-
-
     }
-    printf("Done with step 3");
+    STEP;
     
     // Jorge Diaz
     for (count=0; count < multiplier; count++)
         d2 = sin(d2+(double)count/multiplier);
-    printf("Done with Step 2\n");
+    STEP;
 
     //Rebecca Hoerner
     d=0.0;
     for (i=0;i<multiplier;i++)
         d = cos(d * (double)i/multiplier) * 2.0;
-    printf("Done with Step 4\n");
+    STEP;
 
         /*
          * By Michael Wilkins
@@ -74,28 +73,24 @@ int main(int argc, char *argv[], char *envp[])
         for (i=0; i < multiplier; i++)
                 d = (multiplier-i)/(multiplier+i);
 
-        printf("Completed Step 5\n");
+        STEP;
 	// Sandra M
-	for(s=0;s<multiplier;i++)
-		d = sin(d+(double)(i*0.05)/multiplier);
-	printf("Done with step 5!!\n");
+	for(s=0;s<multiplier;s++)
+		d = sin(d+(double)(s*0.05)/multiplier);
+	STEP;
 
 	//Devlyn
-	int f;
-	for (f=0;i<multiplier;i++)
+	for (i=0;i<multiplier;i++)
        		d = sin(d+(double)(i*3.066)/multiplier);
 
-    printf("Done with Step 6\n");
-
-	printf("Done with step 5!!\n");
-	
+	STEP;
 	// Emilio Orozco
 	for(i=0,i<multiplier;i++;)
 		d=cos(d+(double)(i*2)/multiplier);
 
-	printf("Done with step 6!!\n");
+	STEP;
 	// By Nick Bunn
 	for (i=0;i<multiplier; i++)
 		d = (multiplier * 2) / (multiplier - 2);
-	printf("Done with step 7.\n");
+	STEP;
 }
