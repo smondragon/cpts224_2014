@@ -1,0 +1,9 @@
+#!/bin/bash -x
+
+gcc -c sin.c cos.c -fPIC
+gcc -o libm.so.6 sin.o cos.o -shared
+gcc -o nothing nothing.c -L. -lm -fno-builtin-sin -fno-builtin-cos
+export LD_LIBRARY_PATH=.
+/usr/bin/time -p ./nothing 20
+export LD_LIBRARY_PATH=
+/usr/bin/time -p ./nothing 20
